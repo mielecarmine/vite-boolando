@@ -8,7 +8,11 @@ export default {
 };
 </script>
 
-<template></template>
+<template>
+  <AppHeader />
+  <AppMain />
+  <AppFooter />
+</template>
 
 <style lang="scss">
 @use "./styles/general.scss";
