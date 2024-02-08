@@ -35,30 +35,21 @@ export default {};
   box-shadow: 0px 2px 5px 0px #444;
 }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  height: 70px;
+.logo {
+  height: 30px;
   align-items: center;
 
-  .logo {
-    height: 30px;
-    align-items: center;
-
-    img {
-      height: 100%;
-    }
+  img {
+    height: 100%;
   }
+}
 
-  .text {
-    width: 180px;
-    text-align: center;
+.text {
+  width: 180px;
+  text-align: center;
 
-    a,
-    i {
-      cursor: pointer;
-      padding: 5px;
-    }
+  i {
+    padding: 5px;
   }
 }
 </style>
