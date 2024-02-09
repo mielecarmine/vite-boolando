@@ -29,6 +29,11 @@ i {
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-between {
+  display: flex;
   justify-content: space-between;
   height: 70px;
   align-items: center;

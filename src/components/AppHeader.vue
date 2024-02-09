@@ -4,7 +4,7 @@ export default {};
 
 <template>
   <div class="sticky">
-    <div class="flex container">
+    <div class="flex-between container">
       <div class="text">
         <a href="#">Donna</a>
         <a href="#">Uomo</a>
@@ -48,7 +48,8 @@ export default {};
   width: 180px;
   text-align: center;
 
-  i {
+  i,
+  a {
     padding: 5px;
   }
 }

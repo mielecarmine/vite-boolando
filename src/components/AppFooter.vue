@@ -5,7 +5,7 @@ export default {};
 <template>
   <div class="footer">
     <div class="container">
-      <div class="flex">
+      <div class="flex-between">
         <div class="text">
           <span>Boolando s.r.l</span><br />
           <a href="#">Informazioni legali</a>
@@ -35,6 +35,7 @@ export default {};
 
 <style scoped lang="scss">
 .footer {
+  margin-top: 50px;
   background-color: #292929;
   height: 70px;
   color: white;
