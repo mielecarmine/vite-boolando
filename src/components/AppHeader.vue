@@ -11,7 +11,7 @@ export default {};
         <a href="#">Bambini</a>
       </div>
       <div class="logo">
-        <img src="../img/boolean-logo.png" alt="boolean-logo" />
+        <img src="../assets/img/boolean-logo.png" alt="boolean-logo" />
       </div>
       <div class="text">
         <i class="fa-regular fa-user"></i>
