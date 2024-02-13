@@ -39,12 +39,11 @@ export default {
         />
         <p class="heart">&hearts;</p>
         <p class="sale">
-          <span :class="product.badges.type == 'discount' ? 'cut-off' : ''">{{
-            product.badges.value
-          }}</span>
-          <span :class="product.badges.type == 'tag' ? 'tag' : ''">{{
-            product.badges.value
-          }}</span>
+          <span
+            v-for="badge in product.badges"
+            :class="badge.type == 'discount' ? 'cut-off' : 'tag'"
+            >{{ badge.value }}</span
+          >
         </p>
         <div class="bottom_text">
           <span>{{ product.brand }}</span

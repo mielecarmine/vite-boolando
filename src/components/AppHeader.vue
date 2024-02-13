@@ -14,9 +14,9 @@ export default {};
         <img src="../assets/img/boolean-logo.png" alt="boolean-logo" />
       </div>
       <div class="text">
-        <i class="fa-regular fa-user"></i>
-        <i class="fa-regular fa-heart"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
+        <font-awesome-icon icon="fa-solid fa-user" class="i" />
+        <font-awesome-icon icon="fa-solid fa-heart" class="i" />
+        <font-awesome-icon icon="fa-solid fa-bag-shopping" class="i" />
       </div>
     </div>
   </div>
@@ -48,7 +48,7 @@ export default {};
   width: 180px;
   text-align: center;
 
-  i,
+  .i,
   a {
     padding: 5px;
   }
