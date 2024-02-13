@@ -15,17 +15,19 @@ export default {};
         <div class="text">
           <span>Trovaci anche su</span><br />
           <a class="icons" href="#">
-            <i class="fa-brands fa-square-twitter"></i>
+            <font-awesome-icon icon="fa-brands fa-square-twitter" />
           </a>
           <a class="icons" href="#">
-            <i class="fa-brands fa-square-facebook"></i>
-          </a>
-          <a class="icons" href="#"> <i class="fa-brands fa-instagram"></i> </a>
-          <a class="icons" href="#">
-            <i class="fa-brands fa-square-pinterest"></i>
+            <font-awesome-icon icon="fa-brands fa-square-facebook" />
           </a>
           <a class="icons" href="#">
-            <i class="fa-brands fa-square-youtube"></i>
+            <font-awesome-icon icon="fa-brands fa-instagram" />
+          </a>
+          <a class="icons" href="#">
+            <font-awesome-icon icon="fa-brands fa-square-pinterest" />
+          </a>
+          <a class="icons" href="#">
+            <font-awesome-icon icon="fa-brands fa-square-youtube" />
           </a>
         </div>
       </div>

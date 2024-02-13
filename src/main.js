@@ -13,9 +13,25 @@ import {
   faHeart,
   faBagShopping,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faSquareTwitter,
+  faSquareFacebook,
+  faInstagram,
+  faSquarePinterest,
+  faSquareYoutube,
+} from "@fortawesome/free-brands-svg-icons";
 
 /* add icons to the library */
-library.add(faUser, faHeart, faBagShopping);
+library.add(
+  faUser,
+  faHeart,
+  faBagShopping,
+  faSquareTwitter,
+  faSquareFacebook,
+  faInstagram,
+  faSquarePinterest,
+  faSquareYoutube
+);
 
 const app = createApp(App);
 app.component("font-awesome-icon", FontAwesomeIcon);

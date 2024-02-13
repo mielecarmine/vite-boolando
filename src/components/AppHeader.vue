@@ -14,9 +14,9 @@ export default {};
         <img src="../assets/img/boolean-logo.png" alt="boolean-logo" />
       </div>
       <div class="text">
-        <font-awesome-icon icon="fa-solid fa-user" class="i" />
-        <font-awesome-icon icon="fa-solid fa-heart" class="i" />
-        <font-awesome-icon icon="fa-solid fa-bag-shopping" class="i" />
+        <font-awesome-icon icon="fa-solid fa-user" class="i pointer" />
+        <font-awesome-icon icon="fa-solid fa-heart" class="i pointer" />
+        <font-awesome-icon icon="fa-solid fa-bag-shopping" class="i pointer" />
       </div>
     </div>
   </div>
