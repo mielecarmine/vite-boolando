@@ -13,6 +13,19 @@ export default {
       const imageUrl = new URL("../assets/img/" + imageName, import.meta.url);
       return imageUrl.href;
     },
+
+    discountPrice(product) {
+      const price = product.price;
+      let discount = 0;
+      product.badges.forEach((badge) => {
+        if (badge.type == "discount") {
+          discount = badge.value.slice(0, -1);
+          discount = parseInt(discount);
+        }
+      });
+
+      return Math.floor(price * (1 + discount / 100));
+    },
   },
 
   created() {
@@ -50,7 +63,8 @@ export default {
           ><br />
           <b>{{ product.name }}</b>
           <p>
-            <span class="new_price">{{ product.price }}</span>
+            <span class="new_price"> {{ discountPrice(product) }} $ </span>
+            <span class="old_price">{{ product.price }} $</span>
           </p>
         </div>
       </div>
@@ -111,6 +125,12 @@ export default {
 }
 
 .new_price {
+  color: red;
   font-weight: bold;
+  margin-right: 5px;
+}
+
+.old_price {
+  text-decoration: line-through;
 }
 </style>
